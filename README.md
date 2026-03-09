@@ -1,30 +1,29 @@
 # GCODEAdapterForKobraOS 🐍
 
-Скрипт для адаптации G-code из **Orca Slicer** под прошивку **Klipper-Go** на принтерах AnyCubic.
+Script for adapting G-code from **Orca Slicer** to **Klipper-Go** firmware on AnyCubic printers.
 
-## Описание 🤔
-
-Данный скрипт автоматически преобразует команды G-code, так как прошивка Klipper-Go использует устаревшие синтаксические конструкции Marlin для управления следующими параметрами:
+## Description 🤔
+This script automatically converts G-code commands, as the Klipper-Go firmware uses outdated Marlin syntaxes to control the following parameters:
 
 * `SET_VELOCITY_LIMIT`
 * `SET_PRESSURE_ADVANCE`
 * `SQUARE_CORNER_VELOCITY`
 
-Решение базируется на наработках [TengerTechnologies/Smoothificator](https://github.com/TengerTechnologies/Smoothificator) и требует установленного **Python** 🐍✨.
+The solution is based on the work of [TengerTechnologies/Smoothificator](https://github.com/TengerTechnologies/Smoothificator) and requires an installed **Python** 🐍✨.
 
 ---
 
-## Установка и настройка (Инструкция для людей)
+## Installation and Configuration (Instructions for Humans)
 
-Чтобы скрипт автоматически обрабатывал G-code после каждого слайсинга:
+To make the script automatically process the G-code after each slicing:
 
-1. Откройте настройки вашего принтера в **Orca Slicer**.
-2. Перейдите во вкладку **Настройки принтера** -> **Прочее**.
-3. Найдите раздел **Пост-скрипт обработки**.
-4. Добавьте путь к исполняемому файлу Python и путь к самому скрипту в следующем формате:
+1. Open your printer settings in **Orca Slicer**.
+2. Go to the **Process** tab -> **Other**.
+3. Find the **Post-processing Scripts** section.
+4. Add the path to the Python executable file and the path to the script itself in the following format:
 
 ```Bash
-"ПУТЬ_К_PYTHON.EXE" "ПУТЬ_К_СКРИПТУ.py"
+"PATH_TO_PYTHON.EXE" "PATH_TO_SCRIPT.py"
 
 ```
 
