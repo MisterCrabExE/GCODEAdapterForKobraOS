@@ -30,4 +30,4 @@
 
 ### Пример:
 
-`"C:\Python310\python.exe" "C:\Scripts\anycubic_fix.py"`
+`"C:\Python310\python.exe" "C:\Scripts\KobraOSadapter.py"`
