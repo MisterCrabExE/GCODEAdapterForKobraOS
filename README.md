@@ -1,8 +1,8 @@
-# GCODEAdapterForKobraOS
+# GCODEAdapterForKobraOS 🐍
 
 Скрипт для адаптации G-code из **Orca Slicer** под прошивку **Klipper-Go** на принтерах AnyCubic.
 
-## Описание
+## Описание 🤔
 
 Данный скрипт автоматически преобразует команды G-code, так как прошивка Klipper-Go использует устаревшие синтаксические конструкции Marlin для управления следующими параметрами:
 
@@ -10,11 +10,11 @@
 * `SET_PRESSURE_ADVANCE`
 * `SQUARE_CORNER_VELOCITY`
 
-Решение базируется на наработках [TengerTechnologies/Smoothificator](https://github.com/TengerTechnologies/Smoothificator) и требует установленного **Python**.
+Решение базируется на наработках [TengerTechnologies/Smoothificator](https://github.com/TengerTechnologies/Smoothificator) и требует установленного **Python** 🐍✨.
 
 ---
 
-## Установка и настройка
+## Установка и настройка (Инструкция для людей)
 
 Чтобы скрипт автоматически обрабатывал G-code после каждого слайсинга:
 
@@ -23,7 +23,7 @@
 3. Найдите раздел **Пост-скрипт обработки**.
 4. Добавьте путь к исполняемому файлу Python и путь к самому скрипту в следующем формате:
 
-```Вот так вот, типо:
+```Bash
 "ПУТЬ_К_PYTHON.EXE" "ПУТЬ_К_СКРИПТУ.py"
 
 ```
