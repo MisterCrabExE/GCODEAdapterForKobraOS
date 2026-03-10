@@ -1,6 +1,6 @@
 # GCODEAdapterForKobraOS 🐍
 
-С разрешения автора([Satmosftk2](https://github.com/Satmosftk2)) оригинального кода я использую здесь его работу для дальнейшей модификации
+С разрешения автора ([Satmosftk2](https://github.com/Satmosftk2)) оригинального кода я использую здесь его работу для дальнейшей модификации
 
 Скрипт для адаптации G-code из **Orca Slicer** под прошивку **Klipper-Go** на принтерах AnyCubic.
 
